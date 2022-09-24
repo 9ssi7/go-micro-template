@@ -17,7 +17,7 @@ For example, if we want to create a mapper file for User, we will use the follow
 - `MapSomeCreateDtoToEntity`
 
 
-### Example
+### Example
 
 ```go
 func (m *Mapper) MapSomeEntityToCreatedEvent(s *entity.Some) *event.SomeCreated {
