@@ -49,3 +49,7 @@ You can start your microservice applications that you will develop with Go witho
 ┣ [`📜Sample.md`](https://github.com/ssibrahimbas/go-micro-template/tree/main/Sample.md)
 ┣ 📜go.mod
 ┗ 📜go.sum
+
+## Folder Descriptions
+
+In this repository, there is a `README.md` file under each folder, and in this file, what the folder does is explained in detail. For example, [you may want to visit the `src` folder.](https://github.com/ssibrahimbas/go-micro-template/tree/main/src)
