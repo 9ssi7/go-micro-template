@@ -17,10 +17,14 @@ type Repo struct {
 	ctx context.Context
 }
 
-func NewRepo(d *db.MongoDB) *Repo {
+type RepoConfig struct {
+	MongoDB *db.MongoDB
+}
+
+func NewRepo(c *RepoConfig) *Repo {
 	return &Repo{
 		ctx: context.TODO(),
-		c:   d.GetCollection("some"),
+		c:   c.MongoDB.GetCollection("some"),
 	}
 }
 

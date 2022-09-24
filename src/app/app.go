@@ -96,7 +96,9 @@ func (a *App) loadEvents() {
 }
 
 func (a *App) loadInternal() {
-	a.Repo = internal.NewRepo(a.Db)
+	a.Repo = internal.NewRepo(&internal.RepoConfig{
+		MongoDB: a.Db,
+	})
 	a.Srv = internal.NewService(&internal.ServiceConfig{
 		Repo:        a.Repo,
 		I18n:        a.I18n,
