@@ -32,15 +32,15 @@ func NewService(c *ServiceConfig) *Service {
 func (s *Service) Create(d *dto.SomeCreate) *dto.SomeCreated {
 	e := s.m.MapSomeCreateDtoToEntity(d)
 	e = s.r.Create(e)
-	s.ep.PublishSomeCreated(s.m.MapSomeToCreatedEvent(e))
-	return s.m.MapSomeToCreatedDto(e)
+	s.ep.PublishSomeCreated(s.m.MapSomeEntityToCreatedEvent(e))
+	return s.m.MapSomeEntityToCreatedDto(e)
 }
 
 func (s *Service) Find(d *dto.SomeFind) []*dto.SomeFound {
 	some := s.r.Fetch(d)
 	found := []*dto.SomeFound{}
 	for _, so := range some {
-		found = append(found, s.m.MapSomeToFoundDto(so))
+		found = append(found, s.m.MapSomeEntityToFoundDto(so))
 	}
 	return found
 }
