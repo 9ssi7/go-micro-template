@@ -55,3 +55,18 @@ You can start your microservice applications that you will develop with Go witho
 ## Folder Descriptions
 
 In this repository, there is a `README.md` file under each folder, and in this file, what the folder does is explained in detail. For example, [you may want to visit the `src` folder.](https://github.com/ssibrahimbas/go-micro-template/tree/main/src)
+
+### License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+### Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+
+### Authors
+
+- [Sami Salih İbrahimbaş](https://github.com/ssibrahimbas)
