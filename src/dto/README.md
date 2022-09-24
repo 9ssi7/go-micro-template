@@ -1,4 +1,4 @@
-## DTO Folder
+## DTO Folder
 
 This folder contains all the DTOs used in the application. DTOs are used to transfer data (two way) between the client and the server.
 ### Naming Conventions
