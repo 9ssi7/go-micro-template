@@ -9,7 +9,7 @@ As timing, our objects in internal should be created after they are created so t
 
 The naming convention for event handlers is as follows:
 
-`ENTITY_NAME` + `ACTION` + `PAST TENSE VERB`
+`On` + `ENTITY_NAME` + `ACTION` + `PAST TENSE VERB`
 
 For example, if we want to create a new user, we will use the following event handler:
 
