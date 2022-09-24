@@ -25,13 +25,14 @@ You can start your microservice applications that you will develop with Go witho
 ┃ ┣ 📂event
 ┃ ┃ ┣ 📜some_created.go
 ┃ ┃ ┗ 📜some_deleted.go
+┃ ┃ ┗ 📜some_feature_created.go
 ┃ ┣ 📂event_handler
 ┃ ┃ ┣ 📜event_handler.go
-┃ ┃ ┗ 📜some-feature_handler.go
+┃ ┃ ┗ 📜some_feature_created.go
 ┃ ┣ 📂event_publisher
 ┃ ┃ ┣ 📜event_publisher.go
-┃ ┃ ┣ 📜some-created_publisher.go
-┃ ┃ ┗ 📜some-deleted_publisher.go
+┃ ┃ ┣ 📜some_created.go
+┃ ┃ ┗ 📜some_deleted.go
 ┃ ┣ 📂internal
 ┃ ┃ ┣ 📜api.go
 ┃ ┃ ┣ 📜handler.go
