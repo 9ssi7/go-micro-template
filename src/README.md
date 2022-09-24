@@ -19,15 +19,15 @@ This folder contains the DTOs of the application. DTOs are used to transfer data
 
 This folder contains the entities of the application. Entities are used to store data in the database. Detailed information is available in the README inside the folder.
 
-### [`src/event`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event)
+### [`event`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event)
 
 This folder contains the events of the application. Events are used to transfer data between microservices. Detailed information is available in the README inside the folder.
 
-### [`src/event_handler`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event_handler)
+### [`event_handler`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event_handler)
 
 This folder contains the event handlers of the application. Event handlers are used to handle events. Detailed information is available in the README inside the folder.
 
-### [`src/event_publisher`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event_publisher)
+### [`event_publisher`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event_publisher)
 
 This folder contains the event publishers of the application. Event publishers are used to publish events. Detailed information is available in the README inside the folder.
 
