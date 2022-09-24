@@ -1,4 +1,4 @@
-## App Folder
+## App Folder
 
 Under this folder is the `app.go` file and this is where we manage our application.
 
