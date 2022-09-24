@@ -1,4 +1,4 @@
-## Event Folder
+## Event Folder
 
 This folder contains the types of all events that are published and handled within the application. It is recommended to transform when using these types.
 
