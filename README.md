@@ -48,7 +48,6 @@ You can start your microservice applications that you will develop with Go witho
 ┃ ┗ 📜main.go
 ┣ 📜.gitignore
 ┣ 📜Dockerfile
-┣ 📜Sample.md
 ┣ 📜go.mod
 ┗ 📜go.sum
 ```
