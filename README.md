@@ -8,47 +8,49 @@ You can start your microservice applications that you will develop with Go witho
 
 ## Project Structure
 
+```
 📦microservice-app
-┣ [`📂src`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src)
-┃ ┣ [`📂app`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/app)
+┣ 📂src
+┃ ┣ 📂app
 ┃ ┃ ┗ 📜app.go
-┃ ┣ [`📂config`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/config)
+┃ ┣ 📂config
 ┃ ┃ ┗ 📜config.go
-┃ ┣ [`📂dto`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/dto)
+┃ ┣ 📂dto
 ┃ ┃ ┣ 📜some_create.go
 ┃ ┃ ┣ 📜some_created.go
 ┃ ┃ ┣ 📜some_find.go
 ┃ ┃ ┗ 📜some_found.go
-┃ ┣ [`📂entity`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/entity)
+┃ ┣ 📂entity
 ┃ ┃ ┗ 📜some.go
-┃ ┣ [`📂event`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event)
+┃ ┣ 📂event
 ┃ ┃ ┣ 📜some_created.go
 ┃ ┃ ┗ 📜some_deleted.go
-┃ ┣ [`📂event_handler`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event_handler)
+┃ ┣ 📂event_handler
 ┃ ┃ ┣ 📜event_handler.go
 ┃ ┃ ┗ 📜some-feature_handler.go
-┃ ┣ [`📂event_publisher`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/event_publisher)
+┃ ┣ 📂event_publisher
 ┃ ┃ ┣ 📜event_publisher.go
 ┃ ┃ ┣ 📜some-created_publisher.go
 ┃ ┃ ┗ 📜some-deleted_publisher.go
-┃ ┣ [`📂internal`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/internal)
+┃ ┣ 📂internal
 ┃ ┃ ┣ 📜api.go
 ┃ ┃ ┣ 📜handler.go
 ┃ ┃ ┣ 📜repo.go
 ┃ ┃ ┗ 📜service.go
-┃ ┣ [`📂locales`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/locales)
+┃ ┣ 📂locales
 ┃ ┃ ┣ 📜en.toml
 ┃ ┃ ┗ 📜tr.toml
-┃ ┣ [`📂mapper`](https://github.com/ssibrahimbas/go-micro-template/tree/main/src/mapper)
+┃ ┣ 📂mapper
 ┃ ┃ ┣ 📜mapper.go
 ┃ ┃ ┗ 📜some_mapper.go
 ┃ ┣ 📜app.env
 ┃ ┗ 📜main.go
 ┣ 📜.gitignore
 ┣ 📜Dockerfile
-┣ [`📜Sample.md`](https://github.com/ssibrahimbas/go-micro-template/tree/main/Sample.md)
+┣ 📜Sample.md
 ┣ 📜go.mod
 ┗ 📜go.sum
+```
 
 ## Folder Descriptions
 
