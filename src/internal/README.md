@@ -17,7 +17,7 @@ type Repo struct {
 }
 ```
 
-#### The New Function
+#### The New Function
 
 ```go
 type RepoConfig struct {
@@ -123,7 +123,7 @@ func NewHandler(c *HandlerConfig) *Handler {
 }
 ```
 
-#### The Init Functions
+#### The Init Functions
 
 ```go
 func (h *Handler) InitAllVersions() {
@@ -137,7 +137,7 @@ func (h *Handler) initV1() {
 }
 ```
 
-### `api.go`
+### `api.go`
 
 Contains functions of the Handler type. It is in the role of http controller and is responsible for operations such as request's conversions to dto, validations.
 
